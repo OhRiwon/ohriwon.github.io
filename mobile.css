@@ -32,17 +32,11 @@ button{
     /* text-align: center; */
 }
 
-.bbb{
-    top: 20%;
-}
-
 .datas{
-    top: 20%;
     height: 60%;
 }
 
 .done{
-    top: 83%;
     height: 7%;
 }
 
@@ -55,6 +49,5 @@ button{
 }
 
 .right{
-    top: 95%;
     height: 50%
 }
