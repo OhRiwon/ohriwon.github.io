@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>통계 도구</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <a class="link2" href="help.html">도움말</a>
+        <h1 class="aaa">통계 도구</h1>
+        <form name="frm">
+            <textarea class="datas" name="datas" placeholder="자료를 입력하세요 (숫자만 입력, 줄바꿈으로 구분)"></textarea>
+        </form>
+        <button class="done" onclick="calculate()">완료</button>
+        <div class="right">
+            <p id="p1">개수:</p>
+            <p id="p2">합계:</p>
+            <p id="p3">평균:</p>
+            <p id="p4">중앙값:</p>
+            <p id="p5">표준편차:</p>
+        </div>
+    </body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 960px)">
+    <script src="script.js"></script>
+</html>

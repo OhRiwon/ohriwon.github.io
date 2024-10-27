@@ -1,0 +1,69 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+*{
+    font-family: Pretendard, "맑은 고딕";
+}
+
+a{
+    color: black;
+}
+
+h1{
+    font-size: 20pt;
+    text-align: center;
+}
+
+textarea{
+    font-size: 14pt;
+    font-feature-settings: "tnum";
+    text-align: right;
+}
+
+button{
+    border-style: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.aaa{
+    /* font-size: 20pt; */
+    height: 15%;
+    /* text-align: center; */
+}
+
+.bbb{
+    position: fixed;
+    top: 20%;
+}
+
+.datas{
+    position: fixed;
+    top: 20%;
+    width: 55%;
+    height: 70%;
+}
+
+.done{
+    position: fixed;
+    top: 93%;
+    width: 55%;
+    height: 7%;
+}
+
+.link2{
+    text-align: right;
+    vertical-align: middle;
+    position: fixed;
+    left: 50%;
+    width: 48%;
+    height: 15%;
+}
+
+.right{
+    position: fixed;
+    top: 20%;
+    left: 60%;
+    width: 50%;
+    height: 80%
+}
