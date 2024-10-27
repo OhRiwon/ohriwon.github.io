@@ -33,10 +33,12 @@ button{
 }
 
 .datas{
+    width: 100%;
     height: 70%;
 }
 
 .done{
+    width: 100%;
     height: 20%;
 }
 
@@ -49,5 +51,5 @@ button{
 }
 
 .right{
-    height: 50%
+    height: 50%;
 }
